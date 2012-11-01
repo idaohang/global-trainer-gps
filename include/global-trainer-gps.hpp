@@ -2,7 +2,7 @@
 #define GLOBAL_TRAINER_GPS
 #include <libusb.h>
 #include <string>
-#include <cstdint.h>
+#include <stdint.h>
 
 namespace GlobalTrainerGPS {
 
@@ -53,7 +53,7 @@ namespace GlobalTrainerGPS {
 		char pad23; // 03
 		char pad24; // 00
 		int16_t distance_total;
-	}
+	};
 
 	class GlobalTrainer {
 	public:
